@@ -1,0 +1,33 @@
+@import "../Vars.scss";
+@import "../Media.scss";
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .back{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        P{
+            font: $header-font;
+            color: $header-text;
+        }
+    }
+
+    .current-view{
+        text-align: right;
+        .step{
+            font: $steps-font;
+            color: rgba(189, 189, 189, 1);
+            text-transform: uppercase;
+        }   
+        .view{
+            text-transform: capitalize;
+            color: $header-text;
+            font: $header-font;
+        }
+    }
+}

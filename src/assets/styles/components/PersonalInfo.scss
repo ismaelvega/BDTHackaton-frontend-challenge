@@ -1,0 +1,15 @@
+@import "../Vars.scss";
+
+.right-section.personal-info{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+    .right-section{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: baseline;
+    }
+  }

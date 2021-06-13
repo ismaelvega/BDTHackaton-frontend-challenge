@@ -1,6 +1,7 @@
 import React from "react";
 import Description from "./Description";
-import '../assets/styles/components/Welcome.scss'
+import '../assets/styles/containers/Welcome.scss'
+import '../assets/styles/components/Right-Section.scss'
 import pentagonUserIcon from '../assets/static/icons/pentagon-user-icon.svg'
 import pentagonBriefcaseIcon from '../assets/static/icons/pentagon-briefcase-icon.svg'
 import filledPentagonBriefcaseIcon from '../assets/static/icons/filled-pentagon-briefcase-icon.svg'
@@ -11,7 +12,7 @@ const Welcome = () => {
   return(
     <>
       <Description />
-      <section className="right-section">
+      <section className="right-section welcome">
         <div className="main-text">
           <h1>¡Únete a la comunidad!</h1>
           <p>Para empezar, dinos qué cuenta te gustaría abrir</p>

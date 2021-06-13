@@ -1,11 +1,8 @@
 @import "../Vars.scss";
 @import "../Media.scss";
 
-.right-section {
-  display: flex;
-  flex-direction: column;
-  gap: 35px;
-  order: 2;
+.right-section.welcome {
+ 
   .main-text {
     max-width: 400px;
     h1 {
@@ -18,12 +15,6 @@
       padding: 0 28px;
     }
   }
-
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
 
   .account-cards{
     .arrow-icon {

@@ -1,22 +1,22 @@
-@media (min-width: 320px) and (max-width: 800px) {
+@media (min-width: 320px) and (max-width: 799px) {
   .description-section{
-    display: none !important;
+    display: none;
   }
 
-  #wrapper {
+  // #wrapper {
     // background-color: rgb(164, 245, 245);
-  }
+  // }
 }
 
 @media (min-width: 800px) {
-  #wrapper {
-    // background-color: rgb(240, 160, 113);
-  }
+  // #wrapper {
+  //   background-color: rgb(240, 160, 113);
+  // }
 
   .description-section{
-    display: initial !important;
+    display: initial;
   }
-  .right-section{
+  .right-section.welcome{
     margin-left: 2%;
     margin-right: 10%;
     margin-bottom: 5%;
@@ -42,7 +42,7 @@
 }
 
 @media (min-width: 1024px) {
-  .right-section{
+  .right-section.welcome{
     width: 54%;
   }
 
