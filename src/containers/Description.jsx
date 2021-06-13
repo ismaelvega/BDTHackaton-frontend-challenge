@@ -2,11 +2,14 @@ import React from "react";
 import '../assets/styles/components/Description.scss'
 
 const Description = () => {
-  console.log(process.env.PUBLIC_URL)
   return(
   <section className="description-section" style={{
-    backgroundImage: `url(${process.env.PUBLIC_URL + '/image.png'})`
+    background: `url(${process.env.PUBLIC_URL + '/background.png'})`
   }}>
+    <div className="filter">
+    <div className="figures"></div>
+    <p className="description">Nuwe es la platforma que convierte el desarrollo profesional, la búsquda de trabajo y la conexiones de personas y empresas en un juego. Haciendo que puedas centrarte en lo que te gusta, programar, diseñar, crear, planear...</p>
+    </div>
     
   </section>
   );
