@@ -1,0 +1,44 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  .arrow-icon {
+    display: none;
+  }
+
+  #wrapper {
+    background-color: rgb(164, 245, 245);
+  }
+}
+
+@media (min-width: 800px) {
+  #wrapper {
+    background-color: rgb(240, 160, 113);
+  }
+
+  .right-section{
+    width: 54%;
+    margin-right: 200px;
+    margin-bottom: 100px;
+  }
+
+  .description-section{
+    display: initial !important;
+    width: 40;
+  }
+
+  .account--card {
+    width: 426px;
+    justify-content: initial !important;
+    padding: 20px !important;
+  }
+
+  .account--card:hover {
+    background: $gray-background !important;
+    border: 2px solid #4f934a !important;
+    .arrow-icon {
+      display: initial !important;
+      margin-left: 40px;
+      display: initial;
+      text-align: center;
+      vertical-align: middle;
+    }
+  }
+}

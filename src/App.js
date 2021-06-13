@@ -1,8 +1,10 @@
-import './assets/styles/App.scss';
+import React from "react";
+import './assets/styles/App.scss'
+import Welcome from './containers/Welcome';
 
 function App() {
   return (
-    <h1>hello world</h1>
+      <Welcome />
   );
 }
 
